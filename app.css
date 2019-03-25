@@ -1,0 +1,161 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+li {
+    display: inline;
+
+    padding: 8px;
+    font-size: 13px;
+}
+
+input[type="text"]{
+    font-size: 16px;
+}
+
+#TopLeftLinks {
+    color: #404040;
+    float: left;
+    width: 50%;
+    margin: 20px 0px 0px 20px;
+}
+
+#TopRightLinks {
+    position: absolute;
+    float: right;
+    margin: 5px -13px 0px 0px;
+    color: #040404;
+    width: %;
+    right: 10px;
+}
+
+#GoogleSuite {
+    width: 22px;
+    margin: -10px -13px -8px 0px;
+    padding: 3px;
+}
+
+#UserImage {
+    width: 52px;
+    margin: -1px 13px -20px 0px;
+    padding: 5px;
+}
+
+
+body {
+    1000px;
+}
+
+#GoogleSearchBody {
+    position: fixed;
+    left: 450px;
+    top: 180px;
+    justify-content: center;
+    margin: auto;
+}
+
+#logo {
+    width: 275px;
+    position: relative;
+    left: 52px;
+    top: 15px;
+}
+
+#searchbar {
+    width: 450px;
+    padding: 15px;
+    margin: 0px 0px 0px 30px;
+    border-radius: 25px;
+    position: relative;
+    right: 90px;
+    border: 1px solid #dfe1e5;
+    position: relative;
+    top: 20px;
+    background-image: url(/images/microphone.png);
+    background-position: 98% 50%;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    outline: none;
+}
+
+#searchbar:hover {
+    -webkit-box-shadow: 3px 3px 3px 3px #f2f2f2;
+    -moz-box-shadow: 3px 3px 3px 3px #f2f2f2;
+    box-shadow: 3px 3px 3px 3px #f2f2f2;
+}
+
+#microphone {
+    width: 20px;
+    positon: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#GoogleSearchButton {
+    background-color: #F2F2F2;
+    width: 110px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    border-color: #f2f2f2;
+    text-align: center;
+    margin: 25px 0px 0px 65px;
+    font-size: 14px;
+    color: #5F6368;
+}
+
+#ImFeelingLuckyButton {
+    background-color: #F2F2F2;
+    width: 130px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    border-color: #f2f2f2;
+    text-align: center;
+    margin: 8px;
+    font-size: 14px;
+    color: #5F6368;
+}
+
+#Footer {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 6%;
+    padding: 0.2em 0em 0em 0em;
+    outline: #E4E4E4;
+
+}
+
+#Footer a {
+    color: #5F6368;
+}
+
+#FooterLeft {
+    float: left;
+    display: block;
+    color: #5F6368;
+    padding: 8px 22px;
+    margin: 0px 0px 0px 0px;
+}
+
+#FooterRight {
+    float: right;
+    display: block;
+    color: #5F6368;
+    padding: 8px 22px;
+    margin: 0px 5px 0px 0px;
+}
