@@ -7,50 +7,57 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google</title>
     <link rel="stylesheet" href="app.css">
-    <div id="TopLeftLinks">
+    <link rel="shortcut icon" href="https://www.google.com/s2/favicons?domain=www.google.com"" type=" image/x-icon">
+        </head> <body>
+    <header>
+        <div class="nav-topleft">
+            <ul>
+                <li id="nav-about"><a href="https://about.google/">About</a></li>
+                <li id="nav-store"><a href="https://store.google.com/">Store</a></li>
+            </ul>
+        </div>
+        <div class="nav-topright">
+            <ul>
+                <li id="nav-gmail"><a href="https://mail.google.com/mail/?tab=wm&authuser=0">Gmail</a></li>
+                <li id="nav-images"><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0">Images</a></li>
+                <li id="nav-googlesuite"><img id="GoogleSuite" src="images/google_suite.png" alt=""></li>
+                <li id="nav-userimage"><img id="UserImage" src="images/user_image.png" alt=""></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="center">
+        <div id="google-logo">
+            <img id="logo" src="images/googlelogo_color_272x92dp.png" alt="Google Logo">
+        </div>
+        <form action="http://www.google.com/search">
+            <div class="search-bar">
+                <input type="text" name="searchbox" id="search-box"></div>
+
+            <div class="search-buttons">
+                <input type="submit" value="Google Search" id="google-search-button">
+                <input type="button" value="I'm Feeling Lucky" id="im-feeling-lucky-button">
+            </div>
+        </form>
+    </div>
+
+
+    <div class="Footer">
         <ul>
-            <li><a href="https://about.google/">About</a></li>
-            <li><a href="https://store.google.com/">Store</a></li>
+            <div class="Footer-Left">
+                <li id="nav-advertising"><a href="https://ads.google.com/intl/en_us/home/">Advertising</a></li>
+                <li id="nav-business"><a
+                        href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a>
+                </li>
+            </div>
+            <div class="Footer-Right">
+                <li id="nav-privacy"><a href="https://www.google.com/intl/en_us/policies/privacy/?fg=1">Privacy</a>
+                </li>
+                <li id="nav-tos"><a href="https://www.google.com/intl/en_us/policies/terms/?fg=1">Terms</a></li>
+                <li id="nav-settings"><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+            </div>
         </ul>
     </div>
-    <div id="TopRightLinks">
-        <ul>
-            <li><a href="https://mail.google.com/mail/?tab=wm&authuser=0">Gmail</a></li>
-            <li><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0">Images</a></li>
-            <li><img id="GoogleSuite" src="images/google_suite.png" alt=""></li>
-            <li><img id="UserImage" src="images/user_image.png" alt=""></li>
-        </ul>
-    </div>
-
-</head>
-
-<div id="GoogleSearchBody">
-    <img id="logo" src="images/googlelogo_color_272x92dp.png" alt="Google Logo">
-    <form action="">
-        <p><input type="text" name="searchbar" id="searchbar"></p>
-        <p>
-            <input type="button" value="Google Search" id="GoogleSearchButton">
-            <input type="button" value="I'm Feeling Lucky" id="ImFeelingLuckyButton">
-        </p>
-    </form>
-</div>
-
-
-<div class="navbar" id="Footer">
-    <ul>
-        <div id="FooterLeft">
-            <li><a href="https://ads.google.com/intl/en_us/home/">Advertising</a></li>
-            <li><a
-                    href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a>
-            </li>
-        </div>
-        <div id="FooterRight">
-            <li><a href="https://www.google.com/intl/en_us/policies/privacy/?fg=1">Privacy</a></li>
-            <li><a href="https://www.google.com/intl/en_us/policies/terms/?fg=1">Terms</a></li>
-            <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
-        </div>
-    </ul>
-</div>
-</body>
+    </body>
 
 </html>

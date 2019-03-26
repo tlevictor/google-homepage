@@ -3,6 +3,12 @@ body {
     margin: 0px;
 }
 
+header {
+    top: 0px;
+    width: 100%;
+    position: fixed;
+}
+
 ul {
     list-style-type: none;
     margin: 0px;
@@ -17,29 +23,123 @@ a {
 
 li {
     display: inline;
-
-    padding: 8px;
-    font-size: 13px;
 }
 
-input[type="text"]{
+li a {
+    font-size: 13px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+    font-decoration: underline;
+}
+
+input[type="text"] {
     font-size: 16px;
 }
 
-#TopLeftLinks {
+.nav-topleft {
     color: #404040;
     float: left;
     width: 50%;
     margin: 20px 0px 0px 20px;
 }
 
-#TopRightLinks {
+.nav-topleft a {
+    color: #404040;
+}
+
+
+.nav-topright {
     position: absolute;
     float: right;
     margin: 5px -13px 0px 0px;
-    color: #040404;
+    color: #404040;
     width: %;
     right: 10px;
+}
+
+.nav-topright a {
+    color: #404040;
+}
+
+
+.center {
+    text-align: -webkit-center;
+    padding-top: 175px;
+}
+
+.search-bar {
+    display: inline-block;
+    margin: 0 auto;
+    widows: 100px;
+
+}
+
+.search-buttons {
+    padding-top: 28px;
+    padding-right: 35px;
+}
+
+.Footer {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    outline: #E4E4E4;
+    border-top: 1px solid #e4e4e4;
+
+}
+
+.Footer ul {
+    height: 40px;
+}
+
+.Footer a {
+    color: #5F6368;
+}
+
+.Footer-Left {
+    float: left;
+    display: block;
+    color: #5F6368;
+    padding: 8px 22px;
+    margin: 0px 0px 0px 0px;
+}
+
+.Footer-Right {
+    float: right;
+    display: block;
+    color: #5F6368;
+    padding: 8px 22px;
+    margin: 0px 5px 0px 0px;
+}
+
+#nav-about {
+    margin: 0 0 5px 3px;
+}
+
+#nav-store {
+    margin: 4px 0 0 18px;
+}
+
+#nav-gmail {
+    padding-right: 11px;
+}
+
+#nav-images {
+    padding-right: 11px;
+}
+
+#nav-googlesuite {
+    padding-right: 11px;
+}
+
+#nav-userimage {
+    padding-right: 3px;
+    width: 50px;
 }
 
 #GoogleSuite {
@@ -54,11 +154,6 @@ input[type="text"]{
     padding: 5px;
 }
 
-
-body {
-    1000px;
-}
-
 #GoogleSearchBody {
     position: fixed;
     left: 450px;
@@ -68,43 +163,32 @@ body {
 }
 
 #logo {
-    width: 275px;
-    position: relative;
-    left: 52px;
-    top: 15px;
+    width: 272px;
+    margin-top: 23px;
 }
 
-#searchbar {
-    width: 450px;
-    padding: 15px;
-    margin: 0px 0px 0px 30px;
+#search-box {
+    width: 458px;
+    padding: 13px;
     border-radius: 25px;
-    position: relative;
-    right: 90px;
+    top: 23px;
+    left: 5px;
     border: 1px solid #dfe1e5;
     position: relative;
-    top: 20px;
     background-image: url(/images/microphone.png);
-    background-position: 98% 50%;
+    background-position: 96.3% 50%;
     background-repeat: no-repeat;
-    background-size: 20px;
+    background-size: 21px;
     outline: none;
 }
 
-#searchbar:hover {
-    -webkit-box-shadow: 3px 3px 3px 3px #f2f2f2;
-    -moz-box-shadow: 3px 3px 3px 3px #f2f2f2;
-    box-shadow: 3px 3px 3px 3px #f2f2f2;
+#search-box:hover {
+    -webkit-box-shadow: 1px 1px 1px 1px #f2f2f2;
+    -moz-box-shadow: 1px 1px 1px 1px #f2f2f2;
+    box-shadow: 1px 1px 1px 1px #f2f2f2;
 }
 
-#microphone {
-    width: 20px;
-    positon: absolute;
-    top: 5px;
-    right: 5px;
-}
-
-#GoogleSearchButton {
+#google-search-button {
     background-color: #F2F2F2;
     width: 110px;
     padding: 10px 0px 10px 0px;
@@ -114,9 +198,10 @@ body {
     margin: 25px 0px 0px 65px;
     font-size: 14px;
     color: #5F6368;
+    outline: none;
 }
 
-#ImFeelingLuckyButton {
+#im-feeling-lucky-button {
     background-color: #F2F2F2;
     width: 130px;
     padding: 10px 0px 10px 0px;
@@ -128,34 +213,15 @@ body {
     color: #5F6368;
 }
 
-#Footer {
-    background-color: #f2f2f2;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 6%;
-    padding: 0.2em 0em 0em 0em;
-    outline: #E4E4E4;
-
+#nav-advertising {
+    padding-right: 22px;
+    padding-left: 10px;
 }
 
-#Footer a {
-    color: #5F6368;
+#nav-privacy {
+    padding-right: 22px;
 }
 
-#FooterLeft {
-    float: left;
-    display: block;
-    color: #5F6368;
-    padding: 8px 22px;
-    margin: 0px 0px 0px 0px;
-}
-
-#FooterRight {
-    float: right;
-    display: block;
-    color: #5F6368;
-    padding: 8px 22px;
-    margin: 0px 5px 0px 0px;
+#nav-tos {
+    padding-right: 22px;
 }
